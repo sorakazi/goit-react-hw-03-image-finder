@@ -42,7 +42,7 @@
   height: 30px;
   border: none;
   border-radius: 50%;
-  background-color: #e84f20;
+  background-color: #2055e8;
   color: #fff;
   font-size: 16px;
   display: flex;
@@ -55,5 +55,5 @@
 
 .closeButton:hover {
   background-color: #f0f8ff;
-  color: #b65b40;
+  color: #40a4b6;
 }
