@@ -1,0 +1,25 @@
+.galleryItem {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 20%;
+}
+
+.galleryItemImage {
+  display: block;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.galleryItem:hover {
+  box-shadow: 0 3px 15px rgb(255, 255, 255);
+  transition: transform 0.3s ease;
+}
+
+.galleryItemImage:hover {
+  transform: scale(1.05);
+}
